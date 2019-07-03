@@ -2,10 +2,7 @@
   <div class="row">
     <div class="col-xs-12 col-md-8 col-md-offset-2">
       <!-- active users -->
-      <app-active-users
-        [users]="activeUsers"
-        (userSetToInactive)="onSetToInactive($event)"
-      ></app-active-users>
+      <app-active-users [users]="activeUsers"></app-active-users>
 
       <!-- inactive users  -->
       <app-inactive-users
